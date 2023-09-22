@@ -1,0 +1,10 @@
+name: Helloworld
+
+on: [psuh]
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: hello
+      run: echo "Hello, GitHub Actons!"
